@@ -1,12 +1,12 @@
-#Trying out a new stack
+Trying out a new stack
 
 Doing awesome stuff using:
-    - Next.js
-    - PostgreSQL
-    - GraphQL
+    * Next.js
+    * PostgreSQL
+    * GraphQL
         - Apollo Server
         - Apollo Client
-    - Prisma
-    -TailwindCSS
+    * Prisma
+    * TailwindCSS
 
 *using Prisma boilerplate as starter
