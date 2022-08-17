@@ -16,7 +16,7 @@ export const schema = makeSchema({
       "index.d.ts"
     ),
     // location of the generated schema 
-    schema: join(process.cwd(), "schema", "schema.graphql"),
+    schema: join(process.cwd(), "graphql", "schema", "schema.graphql"),
   },
   contextType: {
     export: "Context",
