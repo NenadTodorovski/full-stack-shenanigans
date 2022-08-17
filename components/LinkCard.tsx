@@ -1,12 +1,21 @@
-import React from "react";
+import React, { FC } from "react";
 
-export const LinkCard = ({
+interface ILinkCard {
+  id: string;
+  imageUrl: string;
+  url: string;
+  title: string;
+  category: string;
+  description: string;
+}
+
+export const LinkCard: FC<ILinkCard> = ({
+  id,
+  title,
+  description,
   imageUrl,
   url,
-  title,
   category,
-  description,
-  id,
 }) => {
   return (
     <div key={id} className="shadow  max-w-md  rounded">
