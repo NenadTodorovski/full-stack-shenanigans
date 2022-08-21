@@ -14,6 +14,7 @@ export default function Home() {
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {links.map(({ id, title, description, category, imageUrl, url }) => (
             <LinkCard
+              key={id}
               id={id}
               title={title}
               description={description}
