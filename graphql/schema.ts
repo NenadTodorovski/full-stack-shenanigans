@@ -1,11 +1,11 @@
 import { makeSchema } from "nexus";
 import { join } from "path";
 
-import { User, Link } from "./types"
+import * as types from "./types";
 
 // type-safe schema generation
 export const schema = makeSchema({
-  types: [],
+  types: [types],
   outputs: {
     // where to generate app's schema types
     typegen: join(
@@ -15,7 +15,7 @@ export const schema = makeSchema({
       "nexux-typegen",
       "index.d.ts"
     ),
-    // location of the generated schema 
+    // location of the generated schema
     schema: join(process.cwd(), "graphql", "schema", "schema.graphql"),
   },
   contextType: {
