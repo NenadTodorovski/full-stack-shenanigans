@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { LinkCard } from "../components/LinkCard";
-// import { links } from "../data/links";
 import { gql, useQuery } from "@apollo/client";
 
 const GetAllLinksQuery = gql`
@@ -18,7 +17,6 @@ const GetAllLinksQuery = gql`
 
 export default function Home() {
   const { data: { links } = {}, loading, error } = useQuery(GetAllLinksQuery);
-  console.log({ links });
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Something went terribly wrong! {error.message}</p>;
