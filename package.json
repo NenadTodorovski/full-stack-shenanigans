@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "initial-seed": "npx prisma db seed",
-    "studio": "npx prisma studio"
+    "prisma-push": "npx prisma db push",
+    "prisma-seed": "npx prisma db seed",
+    "prisma-studio": "npx prisma studio --port 42069"
   },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
