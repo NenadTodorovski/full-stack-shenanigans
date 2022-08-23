@@ -1,2 +1,2 @@
-export { Link, LinksQuery } from "./Link";
-export { User } from "./User";
+export * from "./Link";
+export * from "./User";
