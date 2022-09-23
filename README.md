@@ -1,6 +1,6 @@
 ## Trying out a new stack
 
-## Doing awesome stuff using:
+- Doing awesome stuff using:
     * Next.js
     * PostgreSQL
     * GraphQL
@@ -9,7 +9,7 @@
     * Prisma
     * TailwindCSS
 
-## using Prisma boilerplate as starter
+* using Prisma boilerplate as starter
 
 - npm i
 - use .env file and define a PostgreSQL db in a DATABASE_URL environment variable
