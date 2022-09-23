@@ -1,6 +1,6 @@
-Trying out a new stack
+## Trying out a new stack
 
-Doing awesome stuff using:
+## Doing awesome stuff using:
     * Next.js
     * PostgreSQL
     * GraphQL
@@ -9,12 +9,12 @@ Doing awesome stuff using:
     * Prisma
     * TailwindCSS
 
-*using Prisma boilerplate as starter
+## using Prisma boilerplate as starter
 
-npm i
-use .env file and define a PostgreSQL db in a DATABASE_URL environment variable
+- npm i
+- use .env file and define a PostgreSQL db in a DATABASE_URL environment variable
 
-npm run initial-seed to seed initial data in the db
+- npm run initial-seed to seed initial data in the db
     initial data provided in /data/links
     seeding function in /prisma/seed
     !!! prisma v3+ requires prisma object in package.json
