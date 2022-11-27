@@ -8,6 +8,7 @@
         - Apollo Client
     * Prisma
     * TailwindCSS
+    * Nexus
 
 * using Prisma boilerplate as starter
 
